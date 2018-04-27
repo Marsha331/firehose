@@ -38,13 +38,13 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'milkshakeregular';
+  font-family: 'kaushan_scriptregular';
   font-weight: bold;
 }
 
 .next-quote {
   color: #f84342;
-  font-family: 'milkshakeregular';
+  font-family: 'kaushan_scriptregular';
   font-size: 20px;
 }
 
@@ -57,13 +57,13 @@ hr {
 }
 
 h1 {
-  font-family: 'milkshakeregular';
+  font-family: 'kaushan_scriptregular';
   font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
- font-family: 'milkshakeregular';
+ font-family: 'kaushan_scriptregular';
 }
 
 .footer-blurb {
@@ -80,3 +80,22 @@ h2 {
 .about  {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   }
+
+  @media (max-width: 750px) {
+    .footerblurb {
+    text-align: left;
+    }
+  }
+
+  .modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'kaushan_scriptregular';
+}
+
+::selection {
+  background-color: #f84342;
+}
